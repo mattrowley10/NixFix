@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Fira+Sans:ital,wght@0,300;1,700&family=Open+Sans&family=Raleway:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  margin: 0;
+}
+
+html{
+  height: 100vh;
+  overflow-y:scroll;
+  overscroll-behavior: none;
+  background-color: #E8F0FF;
+}
+
+.topNav{
+  position: sticky;
+  top: 0;
+  background-color: #392759;
+  padding: 2rem .5rem 2rem .5rem ;
+  color: #E8F0FF;
+  font-family: 'Cormorant Garamond';
+  z-index: 2;
+}
+.dropDown{
+  background-color: #F7ACCF;
+  color: #392759;
+  font-family: 'Fira Sans';
+  font-size: 18px;
+  border: 1px solid #7A5C61;
+  z-index: 0;
+}
+
+.home{
+  font-family: 'Cormorant Garamond';
+  color: #7A5C61;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://cdn.pixabay.com/photo/2017/09/21/07/47/girl-2771001_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.image-container{
+  position: relative;
+  margin-bottom: 5rem;
+}
+.image{
+  width: 100vw;
+  height: 80vh;
+  background-color: #F7ACCF;
+}
+
+.image-quote{
+  font-family: 'Cormorant Garamond';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#E8F0FF;
+  text-align: center;
+}
+.home-description{
+  font-family: 'Cormorant Garamond';
+  color: #7A5C61;
+  background-color: #E8F0FF;
+  margin: 2rem;
+}
+.home-d{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.home-d-img{
+  height: 20rem;
+  width: 30rem;
+  padding-right: 1rem;
+}
+.image-container-facials{
+  background-color: #FDF3E9;
+  position: relative;
+}
+.facials{
+  z-index: 0;
+  font-family: 'Cormorant Garamond';
+  color: #392759;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: 90rem 50rem;
+  background-image: url('/public/facial3.png');
+}
+.facial-content{
+  color:#7A5C61;
+  z-index: 1;
+}
+.facial-description{
+  font-family: 'Cormorant Garamond';
+  height: 80vh;
+  width: 100vw;
+  background-color: #FDF3E9;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.facial-d-header{
+  font-family: 'Cormorant Garamond';
+  background-color: #FDF3E9;
+  color: #7A5C61;
+}
+.facial-list{
+  font-family: 'Fira Sans';
+  color: #7A5C61;
+}
+.wax-description{
+  font-family: 'Cormorant Garamond';
+  height: 80vh;
+  width: 100vw;
+  background-color: #EAAAC0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.wax-d-header{
+  font-family: 'Cormorant Garamond';
+  background-color: #EAAAC0;
+  color: #7A5C61;
+}
+.wax-list{
+  font-family: 'Fira Sans';
+  color: #7A5C61;
+}
+.wax-container{
+  position: relative;
+}
+.background-wax{
+  z-index: 0;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100vw;
+  background-size: 90rem 40rem;
+  image-rendering:optimizeQuality;
+  background-image: url("/public/wax4.png");
+  background-color: #EAAAC0;
+}
+.wax-content{
+  position: relative;
+  z-index: 1;
+  font-family: 'Cormorant Garamond';
+  color: #7A5C61;
+}
+
+.makeup-description{
+  font-family: 'Cormorant Garamond';
+  height: 90vh;
+  background-color: #FCEEE0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.makeup-d-header{
+  font-family: 'Cormorant Garamond';
+  background-color: #FCEEE0;
+  color: #4f5055;
+}
+.makeup-list{
+  font-family: 'Fira Sans';
+  color: #4f5055;
+  
+}
+.makeup-container{
+  position: relative;
+}
+.background-makeup{
+  z-index: 0;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100vw;
+  background-size: 90rem 40rem;
+  image-rendering:optimizeQuality;
+  background-image: url("/public/pmu3.png");
+  background-color: #FCEEE0;
+}
+.makeup-content{
+  position: relative;
+  z-index: 1;
+  font-family: 'Cormorant Garamond';
+  color:#4f5055;
+}
+@media(max-width: 425px){
+  .background-makeup{
+    background-size: 425px;
+    height: 25vh;
+  }
+  .makeup-description{
+    height: 60vh;
+  }
+  .background-wax{
+    background-size: 425px;
+    height: 25vh;
+  }
+  .wax-description{
+    height: 60vh;
+  }
+  .facials{
+    background-size: 425px;
+    height: 25vh;
+    background-color: #FDF3E9;
+  }
+  .facial-description{
+    height: 60vh;
+    position: relative;
+    
+  }
+  .home{
+    height: 35.4vh;
+    background-size: 425px;
+  }
+
+  .image{
+    height: 40vh;
+  }
+  .home-d-img{
+    height: 10rem;
+    width: 20rem;
+  }
+  .scroll-container{
+    scroll-snap-type:none ;
+
+  }
+}
