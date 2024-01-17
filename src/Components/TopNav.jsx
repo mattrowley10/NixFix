@@ -45,7 +45,9 @@ export default function TopNav() {
               <a>Permanent Makeup</a>
             </li>
             <li className="mb-2">
-              <a>Booking</a>
+              <a href="https://www.vagaro.com/nixfixllc?fbclid=IwAR1UVsan_MT_4iLTZpheoLCeORB65hUMD6nwax51HWN3uvTWi9J-Ri11mo4&ig_fbb=true">
+                Booking
+              </a>
             </li>
           </ul>
         </div>

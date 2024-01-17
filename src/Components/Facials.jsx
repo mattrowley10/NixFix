@@ -8,7 +8,7 @@ export default function Facials() {
           Facials
         </div>
       </div>
-      <h2 className="facial-d-header text-3xl pl-24 flex justify-start underline">
+      <h2 className="facial-d-header text-3xl pl-48 flex justify-start underline">
         Description & Pricing
       </h2>
       <FacialDescription />

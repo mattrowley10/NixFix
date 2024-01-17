@@ -21,15 +21,15 @@ html{
 .topNav{
   position: sticky;
   top: 0;
-  background-color: #392759;
+  background-color: #7A5C61;
   padding: 2rem .5rem 2rem .5rem ;
   color: #E8F0FF;
   font-family: 'Cormorant Garamond';
   z-index: 2;
 }
 .dropDown{
-  background-color: #F7ACCF;
-  color: #392759;
+  background-color: #F0CEE7;
+  color:#392759;
   font-family: 'Fira Sans';
   font-size: 18px;
   border: 1px solid #7A5C61;
@@ -52,7 +52,7 @@ html{
 }
 .image{
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   background-color: #F7ACCF;
 }
 
@@ -91,15 +91,15 @@ html{
   height: 70vh;
   background-repeat: no-repeat;
   background-size: 90rem 50rem;
-  background-image: url('/public/facial3.png');
+  background-image: url('/public/facial4.png');
 }
 .facial-content{
-  color:#7A5C61;
+  color:#4f5055;
   z-index: 1;
 }
 .facial-description{
   font-family: 'Cormorant Garamond';
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
   background-color: #FDF3E9;
   display: grid;
@@ -108,28 +108,30 @@ html{
 .facial-d-header{
   font-family: 'Cormorant Garamond';
   background-color: #FDF3E9;
-  color: #7A5C61;
+  color: #4f5055;
 }
 .facial-list{
   font-family: 'Fira Sans';
-  color: #7A5C61;
+  color: #4f5055;
+  line-height: 4.5rem;
 }
 .wax-description{
   font-family: 'Cormorant Garamond';
-  height: 80vh;
+  height: 280vh;
   width: 100vw;
-  background-color: #EAAAC0;
+  background-color: #FCEEE0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 .wax-d-header{
   font-family: 'Cormorant Garamond';
-  background-color: #EAAAC0;
-  color: #7A5C61;
+  background-color: #FCEEE0;
+  color:  #4f5055;
 }
 .wax-list{
   font-family: 'Fira Sans';
-  color: #7A5C61;
+  color:  #4f5055;
+  line-height: 4.5rem;
 }
 .wax-container{
   position: relative;
@@ -139,21 +141,21 @@ html{
   background-repeat: no-repeat;
   height: 70vh;
   width: 100vw;
-  background-size: 90rem 40rem;
+  background-size: 90rem 35rem;
   image-rendering:optimizeQuality;
-  background-image: url("/public/wax4.png");
-  background-color: #EAAAC0;
+  background-image: url("/public/wax5.png");
+  background-color: #FCEEE0;
 }
 .wax-content{
   position: relative;
   z-index: 1;
   font-family: 'Cormorant Garamond';
-  color: #7A5C61;
+  color:  #7A5C61;
 }
 
 .makeup-description{
   font-family: 'Cormorant Garamond';
-  height: 90vh;
+  height: 100vh;
   background-color: #FCEEE0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -166,6 +168,7 @@ html{
 .makeup-list{
   font-family: 'Fira Sans';
   color: #4f5055;
+  line-height: 4.5rem;
   
 }
 .makeup-container{
@@ -186,6 +189,16 @@ html{
   z-index: 1;
   font-family: 'Cormorant Garamond';
   color:#4f5055;
+}
+.footer{
+
+  background-color: #7A5C61;
+  font-family: 'Cormorant Garamond';
+  color:#E8F0FF;
+}
+
+.contact-us{
+  height: 100vh;
 }
 @media(max-width: 425px){
   .background-makeup{

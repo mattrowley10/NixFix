@@ -17,7 +17,7 @@ export default function HomeDescription() {
         <img
           className="home-d-img rounded-md cursor-pointer"
           src="https://cdn.pixabay.com/photo/2023/08/31/08/58/facial-8224799_1280.jpg "
-          alt="lashes"
+          alt="facial"
           onClick={() => nav("/facials")}
         />
         <img
