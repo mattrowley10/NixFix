@@ -7,7 +7,7 @@ export default function Makeup() {
           Permanent Makeup
         </div>
       </div>
-      <h2 className="makeup-d-header text-3xl pl-48 flex justify-start underline">
+      <h2 className="makeup-d-header text-3xl pl-24 lg:pl-48 flex justify-start underline">
         Description & Pricing
       </h2>
       <MakeupDescription />

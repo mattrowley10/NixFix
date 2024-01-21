@@ -15,7 +15,7 @@ export default function HomeDescription() {
     <div className="home-description">
       <div className="home-d ">
         <img
-          className="home-d-img rounded-md cursor-pointer"
+          className="home-d-img rounded-md cursor-pointer pr-4"
           src="https://cdn.pixabay.com/photo/2023/08/31/08/58/facial-8224799_1280.jpg "
           alt="facial"
           onClick={() => nav("/facials")}
@@ -27,7 +27,7 @@ export default function HomeDescription() {
           onClick={() => nav("/wax")}
         />
         <img
-          className="home-d-img rounded-md cursor-pointer"
+          className="home-d-img rounded-md cursor-pointer pl-4"
           src="/public/pmu2.png"
           onClick={() => nav("/makeup")}
         />

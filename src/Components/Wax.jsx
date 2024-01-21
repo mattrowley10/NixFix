@@ -8,7 +8,7 @@ export default function Wax() {
           Wax
         </div>
       </div>
-      <h2 className="wax-d-header text-3xl pl-48  flex justify-start underline">
+      <h2 className="wax-d-header text-3xl pl-24 lg:pl-48  flex justify-start underline">
         Description & Pricing
       </h2>
       <WaxDescription />
