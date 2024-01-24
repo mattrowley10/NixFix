@@ -1,7 +1,7 @@
 export default function WaxDescription() {
   return (
     <div className="wax-description lg:pl-24">
-      <ul className="wax-list text-xl lg:text-2xl text-center lg:text-left  lg:ml-24">
+      <ul className="wax-list text-xl lg:text-2xl lg:text-left  lg:ml-14">
         <li id="1">Brow Shaping</li>
         <li id="2">Brow Shaping, Lamination & Tint</li>
         <li id="3">Tint</li>
@@ -38,7 +38,7 @@ export default function WaxDescription() {
         <li id="34">Brazilian Package of 6</li>
         <li id="35">Full Legs | Half Legs</li>
       </ul>
-      <ul className="wax-list-2 text-xl text-center lg:text-2xl mr-2 lg:ml-24">
+      <ul className="wax-list-2 text-xl text-center lg:text-center lg:text-2xl mr-2 lg:ml-24">
         <li id="1"> $20</li>
         <li id="2">$75</li>
         <li id="3">$25</li>

@@ -8,9 +8,11 @@ export default function Facials() {
           Facials
         </div>
       </div>
-      <h2 className="facial-d-header text-3xl pl-24 lg:pl-48 flex justify-start underline">
-        Description & Pricing
-      </h2>
+      <div className="book-button-facials flex justify-end text-4xl">
+        <button className="book-facials rounded-lg">
+          <p className="book-p rounded-md">Book Now</p>
+        </button>
+      </div>
       <FacialDescription />
     </div>
   );

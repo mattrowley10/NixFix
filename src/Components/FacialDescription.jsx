@@ -1,7 +1,7 @@
 export default function FacialDescription() {
   return (
-    <div className="facial-description lg:pl-24">
-      <ul className="facial-list text-xl lg:text-2xl lg:ml-24">
+    <div className="facial-description lg:pl-12">
+      <ul className="facial-list text-xl lg:text-2xl ">
         <li id="1" className="underline">
           Boost Me Up Lunchtime Facial
         </li>
@@ -89,32 +89,32 @@ export default function FacialDescription() {
           session.
         </p>
       </ul>
-      <ul className="facial-list-2 text-xl lg:text-2xl lg:ml-24">
-        <li id="1" className="">
+      <ul className="facial-list-2 text-xl text-center lg:text-2xl ">
+        <li id="1" className="lg:mt-4 2xl:mt-4">
           $55 (30min)
         </li>
-        <li id="2" className="mt-56 lg:mt-32">
+        <li id="2" className="mt-56 lg:mt-28 2xl:mt-24">
           $70 (60min)
         </li>
-        <li id="3" className="mt-56 lg:mt-32">
+        <li id="3" className="mt-56 lg:mt-32 2xl:mt-24">
           $90 (60min)
         </li>
-        <li id="4" className="mt-72 lg:mt-40">
+        <li id="4" className="mt-72 lg:mt-40 2xl:mt-32">
           $145 (90min)
         </li>
-        <li id="5" className="mt-44 lg:mt-32">
+        <li id="5" className="mt-44 lg:mt-32 2xl:mt-24">
           $130 (75min)
         </li>
-        <li id="6" className="mt-64 lg:mt-32">
+        <li id="6" className="mt-64 lg:mt-32 2xl:mt-24">
           $120 (75min)
         </li>
-        <li id="7" className="mt-56 lg:mt-32">
+        <li id="7" className="mt-56 lg:mt-32 2xl:mt-24">
           $100 (60min)
         </li>
-        <li id="8" className="mt-56 lg:pt-0 lg:mt-32">
+        <li id="8" className="mt-56 lg:mt-32 2xl:mt-24">
           $130 (75min)
         </li>
-        <li id="9" className="mt-56 lg:mt-32">
+        <li id="9" className="mt-56 lg:mt-32 2xl:mt-24">
           $250
           <br /> 3 for $690
           <br /> 5 for $1100

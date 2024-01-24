@@ -104,13 +104,10 @@ html{
   width: 100vw;
   background-color: #FDF3E9;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  width: auto;
+  grid-template-columns:  1fr 1fr .5fr;
 }
-.facial-d-header{
-  font-family: 'Cormorant Garamond';
-  background-color: #FDF3E9;
-  color: #4f5055;
-}
+
 .facial-list{
   font-family: 'Fira Sans';
   color: #4f5055;
@@ -130,13 +127,9 @@ html{
   width: 100vw;
   background-color: #FCEEE0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
-.wax-d-header{
-  font-family: 'Cormorant Garamond';
-  background-color: #FCEEE0;
-  color:  #4f5055;
-}
+
 .wax-list{
   font-family: 'Fira Sans';
   color:  #4f5055;
@@ -174,16 +167,11 @@ html{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.makeup-d-header{
-  font-family: 'Cormorant Garamond';
-  background-color: #FCEEE0;
-  color: #4f5055;
-}
+
 .makeup-list{
   font-family: 'Fira Sans';
   color: #4f5055;
   line-height: 4.5rem;
-  
 }
 .makeup-container{
   position: relative;
@@ -210,6 +198,32 @@ html{
   color:#E8F0FF;
 }
 
+.book-button{
+  font-family: "Cormorant Garamond";
+  position: absolute;
+  top: 35rem;
+  right: 2rem;
+}
+.book-button-facials{
+  font-family: "Cormorant Garamond";
+  position: absolute;
+  top: 35rem;
+  right: 2rem;
+}
+.book-wax{
+  background-color:#a2737b;
+  padding:50rem 2rem 102rem 2rem;
+}
+.book-facials{
+  background-color:#a2737b;
+  padding:50rem 2rem 65rem 2rem;
+}
+.book-p{
+  background-color:#E8F0FF;
+  color:#4f5055;
+  padding: .5rem;
+  box-shadow: 1px 1px 2px 2px #4f5055;
+}
 .contact-us{
   height: 100vh;
 }
@@ -221,10 +235,54 @@ html{
     background-size: 120rem 45rem;
   }
   .background-makeup{
-    background-size: 120rem ;
+    background-size: 120rem;
+  }
+  .facial-description{
+    height: 200vh;
+  }
+  .wax-description{
+    height: 300vh;
+  }
+  .book-button{
+    font-family: "Cormorant Garamond";
+    position: absolute;
+    top: 43rem;
+    right: 2rem;
+  }
+  .book-button-facials{
+    font-family: "Cormorant Garamond";
+    position: absolute;
+    top: 43rem;
+    right: 2rem;
+  }
+  .book-facials{
+    background-color:#a2737b;
+    padding:50rem 2rem 43rem 2rem;
+  }
+  .home-d-img{
+    margin-left: 4rem;
   }
 }
 @media(max-width: 425px){
+  .book-button{
+    top: 96%;
+    bottom:2rem;
+    right: .6rem;
+  }
+  .book-button-facials{
+    top: 96%;
+    bottom: 2rem;
+    right: .6rem;
+    z-index: 1;
+  }
+  .book-wax{
+    padding: 0 8rem;
+    background-color: transparent;
+  }
+  .book-facials{
+    padding: 0 8rem;
+    background-color: transparent;
+  }
   .background-makeup{
     background-size: 425px;
     height: 25vh;
@@ -237,7 +295,7 @@ html{
     height: 25vh;
   }
   .wax-description{
-    height: 310vh;
+    height: 320vh;
     display: flex;
   }
   .wax-list{
@@ -245,8 +303,8 @@ html{
   }
   .wax-list-2{
     width: max-content;
-
   }
+
   .facials{
     background-size: 425px;
     height: 25vh;

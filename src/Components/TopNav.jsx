@@ -1,11 +1,12 @@
 import { IoMdMenu } from "react-icons/io";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import ScrollToTop from "../Hooks/ScrollToTop";
 export default function TopNav() {
   const [dropDown, setDropDown] = useState(false);
   const nav = useNavigate();
+  const dropDownRef = useRef(null);
 
   const toggleDropDown = () => {
     setDropDown(!dropDown);
@@ -14,6 +15,19 @@ export default function TopNav() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [nav]);
+
+  useEffect(() => {
+    const handleDocumentClick = (event) => {
+      if (dropDownRef.current && dropDownRef.current.contains(event.target)) {
+        setDropDown(false);
+      }
+    };
+    document.addEventListener("click", handleDocumentClick);
+
+    return () => {
+      document.removeEventListener("click", handleDocumentClick);
+    };
+  }, [dropDownRef]);
 
   return (
     <div className="topNav flex">
@@ -28,6 +42,7 @@ export default function TopNav() {
       </div>
       {dropDown && (
         <div
+          ref={dropDownRef}
           className="dropDown px-4 py-2 absolute right-0 mt-8 rounded-lg mr-4 flex-column transition ease-in-out duration-500 cursor-pointer"
           role="menu"
           aria-orientation="vertical"
