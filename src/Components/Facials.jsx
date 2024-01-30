@@ -1,6 +1,7 @@
 import FacialDescription from "./FacialDescription";
-
+import { useNavigate } from "react-router-dom";
 export default function Facials() {
+  const nav = useNavigate();
   return (
     <div className="image-container-facials">
       <div className="facials">
@@ -8,10 +9,13 @@ export default function Facials() {
           Facials
         </div>
       </div>
-      <div className="book-button-facials flex justify-end text-4xl">
-        <button className="book-facials rounded-lg">
+      <div className="book-button-facials flex justify-end text-4xl rounded-lg">
+        <a
+          className="book-facials"
+          href="https://www.vagaro.com/nixfixllc/services?fbclid=IwAR1UVsan_MT_4iLTZpheoLCeORB65hUMD6nwax51HWN3uvTWi9J-Ri11mo4&ig_fbb=true"
+        >
           <p className="book-p rounded-md">Book Now</p>
-        </button>
+        </a>
       </div>
       <FacialDescription />
     </div>

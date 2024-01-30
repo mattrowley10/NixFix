@@ -1,6 +1,7 @@
 import WaxDescription from "./WaxDescription";
-
+import { useNavigate } from "react-router-dom";
 export default function Wax() {
+  const nav = useNavigate();
   return (
     <div className="wax-container">
       <div className="background-wax">
@@ -8,10 +9,13 @@ export default function Wax() {
           Wax
         </div>
       </div>
-      <div className="book-button flex justify-end text-4xl">
-        <button className="book-wax rounded-lg">
+      <div className="book-button flex justify-end text-4xl rounded-lg">
+        <a
+          className="book-wax"
+          href="https://www.vagaro.com/nixfixllc/services?fbclid=IwAR1UVsan_MT_4iLTZpheoLCeORB65hUMD6nwax51HWN3uvTWi9J-Ri11mo4&ig_fbb=true"
+        >
           <p className="book-p rounded-md">Book Now</p>
-        </button>
+        </a>
       </div>
       <WaxDescription />
     </div>

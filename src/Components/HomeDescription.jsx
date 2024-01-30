@@ -22,7 +22,7 @@ export default function HomeDescription() {
         />
         <img
           className="home-d-img rounded-md cursor-pointer"
-          src="https://skinkraft.com/cdn/shop/articles/Applying-wax-to-a-young-woman_s-leg-for-hair-removal_1024x400.jpg?v=1658830857"
+          src="/public/wax6.jpeg"
           alt="waxes"
           onClick={() => nav("/wax")}
         />

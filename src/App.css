@@ -121,13 +121,16 @@ html{
 .facial-d{
   line-height: 2rem; 
 }
+.facial-pricing{
+  line-height: 5;
+}
 .wax-description{
   font-family: 'Cormorant Garamond';
   height: 350vh;
   width: 100vw;
   background-color: #FCEEE0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr .5fr;
 }
 
 .wax-list{
@@ -140,6 +143,7 @@ html{
   color:  #4f5055;
   line-height: 4.5rem;
 }
+
 .wax-container{
   position: relative;
 }
@@ -162,16 +166,23 @@ html{
 
 .makeup-description{
   font-family: 'Cormorant Garamond';
-  height: 100vh;
+  height: 200vh;
   background-color: #FCEEE0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr .5fr .5fr;
 }
 
 .makeup-list{
   font-family: 'Fira Sans';
   color: #4f5055;
-  line-height: 4.5rem;
+  line-height: 4rem;
+}
+.makeup-list-2{
+  font-family: 'Fira Sans';
+  color:  #4f5055;
+}
+.makeup-list-header{
+  line-height: 2;
 }
 .makeup-container{
   position: relative;
@@ -192,6 +203,13 @@ html{
   font-family: 'Cormorant Garamond';
   color:#4f5055;
 }
+.makeup-d{
+  line-height: 2rem; 
+}
+.makeup-pricing{
+  line-height: 3.5;
+}
+
 .footer{
   background-color: #7A5C61;
   font-family: 'Cormorant Garamond';
@@ -203,21 +221,26 @@ html{
   position: absolute;
   top: 35rem;
   right: 2rem;
+  background-color:#a2737b;
+  padding:50rem 2rem 102rem 2rem;
+}
+.book-button-makeup{
+  font-family: "Cormorant Garamond";
+  position: absolute;
+  top: 35rem;
+  right: 2rem;
+  background-color:#a2737b;
+  padding:50rem 2rem 35rem 2rem;
 }
 .book-button-facials{
   font-family: "Cormorant Garamond";
   position: absolute;
   top: 35rem;
   right: 2rem;
-}
-.book-wax{
-  background-color:#a2737b;
-  padding:50rem 2rem 102rem 2rem;
-}
-.book-facials{
   background-color:#a2737b;
   padding:50rem 2rem 65rem 2rem;
 }
+
 .book-p{
   background-color:#E8F0FF;
   color:#4f5055;
@@ -225,7 +248,9 @@ html{
   box-shadow: 1px 1px 2px 2px #4f5055;
 }
 .contact-us{
-  height: 100vh;
+  height: 83vh;
+  background-color:#FCEEE0;
+  font-family: 'Cormorant Garamond';
 }
 @media(min-width: 1600px){
   .facials{
@@ -241,7 +266,10 @@ html{
     height: 200vh;
   }
   .wax-description{
-    height: 300vh;
+    height: 390vh;
+  }
+  .makeup-description{
+    height: 150vh;
   }
   .book-button{
     font-family: "Cormorant Garamond";
@@ -254,10 +282,15 @@ html{
     position: absolute;
     top: 43rem;
     right: 2rem;
-  }
-  .book-facials{
-    background-color:#a2737b;
     padding:50rem 2rem 43rem 2rem;
+  }
+  .book-button-makeup{
+    font-family: "Cormorant Garamond";
+    position: absolute;
+    top: 43rem;
+    right: 2rem;
+    background-color:#a2737b;
+    padding:30rem 2rem 30rem 2rem;
   }
   .home-d-img{
     margin-left: 4rem;
@@ -265,30 +298,47 @@ html{
 }
 @media(max-width: 425px){
   .book-button{
-    top: 96%;
+    top: 97%;
     bottom:2rem;
     right: .6rem;
+      padding: 0 8rem;
+    background-color: transparent;
   }
   .book-button-facials{
-    top: 96%;
+    top: 97%;
     bottom: 2rem;
     right: .6rem;
     z-index: 1;
-  }
-  .book-wax{
-    padding: 0 8rem;
+      padding: 0 8rem;
     background-color: transparent;
   }
-  .book-facials{
-    padding: 0 8rem;
+  .book-button-makeup{
+    top: 97%;
+    bottom: 2rem;
+    right: .6rem;
+    z-index: 1;
+      padding: 0 8rem;
     background-color: transparent;
   }
+
   .background-makeup{
     background-size: 425px;
-    height: 25vh;
+    height: 20vh;
+  }
+
+  .makeup-list{
+    line-height: 2.5;
+    width:22rem;
+  }
+  .makeup-pricing{
+    width: max-content;
+    line-height: 2.5;
   }
   .makeup-description{
-    height: 60vh;
+    height: 315vh;
+    position: relative;
+    display: flex;
+    
   }
   .background-wax{
     background-size: 425px;
@@ -320,6 +370,9 @@ html{
     width: 20rem;
   }
   .facial-list-2{
+    line-height: 2.5rem;
+  }
+  .facial-pricing{
     line-height: 2.5rem;
   }
   .home{

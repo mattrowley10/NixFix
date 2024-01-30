@@ -4,8 +4,8 @@ export default function FacialDescription() {
       <ul className="facial-list text-xl lg:text-2xl ">
         <li id="1" className="underline">
           Boost Me Up Lunchtime Facial
-        </li>
-        <p className="facial-d lg:text-xl lg:text-2xl">
+        </li>{" "}
+        <p className="facial-d lg:text-xl">
           This facial is a MUST for someone on the go! This facial packs the
           power of a full facial condensed into a shorter time frame for your
           convenience! It will leave you refreshed and rejuvenated and ready to
@@ -90,31 +90,34 @@ export default function FacialDescription() {
         </p>
       </ul>
       <ul className="facial-list-2 text-xl text-center lg:text-2xl ">
-        <li id="1" className="lg:mt-4 2xl:mt-4">
+        <li
+          id="1"
+          className="facial-pricing 2xl:relative 2xl:bottom-4 2xl:mt-0"
+        >
           $55 (30min)
         </li>
-        <li id="2" className="mt-56 lg:mt-28 2xl:mt-24">
+        <li id="2" className="facial-pricing mt-56 lg:mt-10 2xl:mt-6">
           $70 (60min)
         </li>
-        <li id="3" className="mt-56 lg:mt-32 2xl:mt-24">
+        <li id="3" className="facial-pricing mt-56 lg:mt-20 2xl:mt-10">
           $90 (60min)
         </li>
-        <li id="4" className="mt-72 lg:mt-40 2xl:mt-32">
+        <li id="4" className="facial-pricing mt-72 lg:mt-24 2xl:mt-16">
           $145 (90min)
         </li>
-        <li id="5" className="mt-44 lg:mt-32 2xl:mt-24">
+        <li id="5" className="facial-pricing mt-44 lg:mt-20 2xl:mt-14">
           $130 (75min)
         </li>
-        <li id="6" className="mt-64 lg:mt-32 2xl:mt-24">
+        <li id="6" className="facial-pricing mt-64 lg:mt-20 2xl:mt-8">
           $120 (75min)
         </li>
-        <li id="7" className="mt-56 lg:mt-32 2xl:mt-24">
+        <li id="7" className="facial-pricing mt-56 lg:mt-16 2xl:mt-10">
           $100 (60min)
         </li>
-        <li id="8" className="mt-56 lg:mt-32 2xl:mt-24">
+        <li id="8" className="facial-pricing mt-56 lg:mt-16 2xl:mt-10">
           $130 (75min)
         </li>
-        <li id="9" className="mt-56 lg:mt-32 2xl:mt-24">
+        <li id="9" className="mt-56 lg:mt-28 2xl:mt-16">
           $250
           <br /> 3 for $690
           <br /> 5 for $1100
