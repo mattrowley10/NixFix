@@ -1,6 +1,6 @@
 export default function MakeupDescription() {
   return (
-    <div className="makeup-description lg:pl-12">
+    <div className="makeup-description pl-2 lg:pl-12">
       <ul className="makeup-list text-xl lg:text-2xl ">
         <li id="1" className="makeup-list-header underline">
           Permanent Makeup Consultation
@@ -75,41 +75,65 @@ export default function MakeupDescription() {
           Color refresher for faded lip blush
         </p>
       </ul>
-      <ul className="makeup-list-2 text-center  text-xl lg:text-2xl ml-6">
-        <li id="1" className="makeup-pricing">
+      <ul className="makeup-list-2 text-center text-xl lg:text-2xl pl-2">
+        <li
+          id="1"
+          className="makeup-pricing sm:relative sm:bottom-2 md:relative md:bottom-2 lg:mt-2 2xl:bottom-4"
+        >
           $25
         </li>
-        <li id="2" className="makeup-pricing mt-48 lg:mt-12 2xl:mt-4">
+        <li
+          id="2"
+          className="makeup-pricing mt-56 md:mt-24 md:pt-2 lg:mt-36 xl:mt-12 2xl:mt-6"
+        >
           $100
         </li>
-        <li id="3" className="makeup-pricing mt-28 lg:mt-8">
+        <li
+          id="3"
+          className="makeup-pricing mt-36 pt-2 md:mt-16 lg:mt-28 lg:pt-4 xl:mt-8 2xl:mt-2"
+        >
           $500
         </li>
         <li
           id="4"
-          className="makeup-pricing mt-44 pt-2 lg:pt-0 lg:mt-14 2xl:mt-12"
+          className="makeup-pricing mt-52 pt-4 md:mt-24 lg:mt-48 lg:pt-2 xl:pt-0 lg:mt-14 2xl:mt-20 2xl:pt-2"
         >
           $500
         </li>
-        <li id="5" className="makeup-pricing mt-48 lg:mt-16 2xl:mt-8">
+        <li
+          id="5"
+          className="makeup-pricing mt-56 pt-2 md:mt-24 lg:mt-36 lg:pt-4 xl:mt-12 2xl:mt-10"
+        >
           $0
         </li>
-        <li id="6" className="makeup-pricing mt-36 lg:mt-8 2xl:mt-8">
+        <li
+          id="6"
+          className="makeup-pricing mt-48 md:mt-16 md:pt-2 lg:mt-40 xl:mt-8 2xl:mt-12"
+        >
           $650
         </li>
-        <li id="7" className="makeup-pricing mt-32 lg:mt-8 2xl:mt-2">
+        <li
+          id="7"
+          className="makeup-pricing mt-36 pt-2 md:mt-16 lg:mt-20 lg:pt-0 xl:mt-8 2xl:mt-6"
+        >
           $450
         </li>
         <li
           id="8"
-          className="makeup-pricing mt-32 pt-6 lg:pt-0 lg:mt-14 2xl:mt-4"
+          className="makeup-pricing mt-48  md:mt-24 md:pt-2 lg:mt-36 lg:pt-4  xl:pt-0 lg:mt-14 2xl:mt-12"
         >
           $300
         </li>
-        <li id="9" className="makeup-pricing mt-24 lg:mt-0">
+        <li
+          id="9"
+          className="makeup-pricing mt-28 md:mt-8 lg:mt-32 xl:mt-0 2xl:mt-4"
+        >
           $180
         </li>
-        <li id="10" className="makeup-pricing mt-32 relative bottom-4 lg:mt-0">
+        <li
+          id="10"
+          className="makeup-pricing mt-36  md:mt-16 lg:mt-32 xl:mt-4 2xl:mt-4"
+        >
           $500
         </li>
       </ul>

@@ -7,16 +7,18 @@
 }
 
 body{
-  height: 100vh;
-  margin: 0;
+  overflow-y:scroll;
+  overflow-x:hidden ;
 }
 
-html{
+html, body{
   height: 100vh;
-  overflow-y:scroll;
+  margin: 0;
+  padding: 0;
   overscroll-behavior: none;
   background-color: #E8F0FF;
 }
+
 
 .topNav{
   position: sticky;
@@ -100,8 +102,8 @@ html{
 }
 .facial-description{
   font-family: 'Cormorant Garamond';
-  height: 275vh;
-  width: 100vw;
+  height: 265vh;
+  /* width: 100vw; */
   background-color: #FDF3E9;
   display: grid;
   width: auto;
@@ -126,7 +128,8 @@ html{
 }
 .wax-description{
   font-family: 'Cormorant Garamond';
-  height: 350vh;
+  display: flex;
+  height: 505vh;
   width: 100vw;
   background-color: #FCEEE0;
   display: grid;
@@ -143,6 +146,9 @@ html{
   color:  #4f5055;
   line-height: 4.5rem;
 }
+.wax-d{
+  line-height: 2rem;
+}
 
 .wax-container{
   position: relative;
@@ -151,14 +157,12 @@ html{
   z-index: 0;
   background-repeat: no-repeat;
   height: 70vh;
-  width: 100vw;
   background-size: 90rem 35rem;
   image-rendering:optimizeQuality;
   background-image: url("/public/wax5.png");
   background-color: #FCEEE0;
 }
 .wax-content{
-  position: relative;
   z-index: 1;
   font-family: 'Cormorant Garamond';
   color:  #7A5C61;
@@ -166,7 +170,7 @@ html{
 
 .makeup-description{
   font-family: 'Cormorant Garamond';
-  height: 200vh;
+  height: 255vh;
   background-color: #FCEEE0;
   display: grid;
   grid-template-columns: 1fr .5fr .5fr;
@@ -180,8 +184,12 @@ html{
 .makeup-list-2{
   font-family: 'Fira Sans';
   color:  #4f5055;
+  line-height: 4rem;
 }
 .makeup-list-header{
+  line-height: 4;
+}
+.makeup-d{
   line-height: 2;
 }
 .makeup-container{
@@ -203,11 +211,9 @@ html{
   font-family: 'Cormorant Garamond';
   color:#4f5055;
 }
-.makeup-d{
-  line-height: 2rem; 
-}
+
 .makeup-pricing{
-  line-height: 3.5;
+  line-height: 5;
 }
 
 .footer{
@@ -219,10 +225,10 @@ html{
 .book-button{
   font-family: "Cormorant Garamond";
   position: absolute;
-  top: 35rem;
+  top: 33rem;
   right: 2rem;
   background-color:#a2737b;
-  padding:50rem 2rem 102rem 2rem;
+  padding:50rem 2rem 182rem 2rem;
 }
 .book-button-makeup{
   font-family: "Cormorant Garamond";
@@ -230,7 +236,7 @@ html{
   top: 35rem;
   right: 2rem;
   background-color:#a2737b;
-  padding:50rem 2rem 35rem 2rem;
+  padding:50rem 2rem 60rem 2rem;
 }
 .book-button-facials{
   font-family: "Cormorant Garamond";
@@ -263,19 +269,20 @@ html{
     background-size: 120rem;
   }
   .facial-description{
-    height: 200vh;
+    height: 180vh;
   }
   .wax-description{
-    height: 390vh;
+    height: 375vh;
   }
   .makeup-description{
-    height: 150vh;
+    height: 175vh;
   }
   .book-button{
     font-family: "Cormorant Garamond";
     position: absolute;
     top: 43rem;
     right: 2rem;
+    padding:50rem 2rem 165rem 2rem;
   }
   .book-button-facials{
     font-family: "Cormorant Garamond";
@@ -290,11 +297,145 @@ html{
     top: 43rem;
     right: 2rem;
     background-color:#a2737b;
-    padding:30rem 2rem 30rem 2rem;
+    padding:30rem 2rem 65rem 2rem;
   }
   .home-d-img{
     margin-left: 4rem;
   }
+}
+@media(max-width:1024px){
+  .home{
+    background-size: 1024px;
+    height:80vh;
+  }
+  .book-button-facials{
+    top: 37rem;
+
+    padding-bottom:102rem;
+  }
+  .book-button{
+    top: 31rem;
+    padding-bottom:200rem
+  }
+  .book-button-makeup{
+    top: 38rem;
+    padding-bottom: 61rem;
+  }
+  .background-wax{
+    background-size: 1024px;
+    height: 30rem;
+  }
+  .facials{
+    background-size: 1024px;
+  }
+  .facial-description{
+    height:300vh;
+  }
+  .wax-description{
+    height: 485vh;
+  }
+  .makeup-description{
+    height: 225vh;
+  }
+  .makeup-list-header{
+    line-height: 2;
+  }
+  .makeup-pricing{
+    line-height: 2;
+  }
+}
+@media(max-width:768px){
+  .home{
+    background-size: 768px;
+    height: 60vh;
+  }
+  .home-d-img{
+    height: 15rem;
+  }
+  .book-button{
+    top: 97%;
+    bottom:2rem;
+    right: 11rem;
+      padding: 0 8rem;
+    background-color: transparent;
+  }
+  .book-button-facials{
+    top: 96%;
+    bottom: 2rem;
+    right: 11rem;
+    z-index: 1;
+      padding: 0 8rem;
+    background-color: transparent;
+  }
+  .book-button-makeup{
+    top: 94%;
+    bottom: 2rem;
+    right: 11rem;
+    z-index: 1;
+      padding: 0 8rem;
+    background-color: transparent;
+  }
+  .facials{
+    background-size: 768px;
+    height: 27rem;
+  }
+  .facial-description{
+    display: flex;
+    height: 210vh;
+  }
+  .facial-list{
+    line-height: 2.5rem;
+    width: 40rem;
+  }
+  .facial-list-2{
+    line-height: 1.5;
+    margin-right: 12px;
+  }
+  .facial-pricing{
+    line-height: 2;
+  }
+  .background-wax{
+    background-size: 768px;
+    height: 22rem;
+  }
+  .wax-description{
+    height: 360vh;
+    display: flex;
+  }
+  .wax-list{
+    line-height: 2.5;
+  }
+  .wax-list-2{
+    line-height: 2.5;
+    margin-right: 12px;
+    width: 12rem;
+  }
+  .wax-pricing{
+    line-height: 2.5;
+  }
+  .background-makeup{
+    background-size: 768px;
+    height: 19rem;
+  }
+  .makeup-description{
+    display: flex;
+    height: 170vh;
+  }
+  .makeup-list-header{
+    line-height: 2;
+  }
+  .makeup-list{
+    line-height: 2.5;
+    width:22rem;
+  }
+  .makeup-pricing{
+    line-height: 2.5;
+  }
+  .makeup-list{
+    width: 40rem;
+  }
+
+
 }
 @media(max-width: 425px){
   .book-button{
@@ -325,17 +466,19 @@ html{
     background-size: 425px;
     height: 20vh;
   }
-
+  .makeup-list-header{
+    line-height: 2;
+  }
   .makeup-list{
     line-height: 2.5;
     width:22rem;
   }
   .makeup-pricing{
-    width: max-content;
     line-height: 2.5;
   }
+
   .makeup-description{
-    height: 315vh;
+    height: 275vh;
     position: relative;
     display: flex;
     
@@ -345,23 +488,25 @@ html{
     height: 25vh;
   }
   .wax-description{
-    height: 320vh;
+    height: 415vh;
     display: flex;
   }
   .wax-list{
     width: 20rem;
+    line-height: 2.5rem;
   }
   .wax-list-2{
-    width: max-content;
+    line-height: 2.5rem;
+    margin-right: 0;
+    width: auto;
   }
-
   .facials{
     background-size: 425px;
     height: 25vh;
     background-color: #FDF3E9;
   }
   .facial-description{
-    height: 350vh;
+    height: 370vh;
     position: relative;
     display: flex;
   }
@@ -371,12 +516,13 @@ html{
   }
   .facial-list-2{
     line-height: 2.5rem;
+    width: auto;
   }
   .facial-pricing{
     line-height: 2.5rem;
   }
   .home{
-    height: 35.4vh;
+    height: 34vh;
     background-size: 425px;
   }
 
@@ -385,7 +531,8 @@ html{
   }
   .home-d-img{
     height: 10rem;
-    width: 30rem;
+    width: 20rem;
+    
   }
   .scroll-container{
     scroll-snap-type:none ;

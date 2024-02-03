@@ -32,9 +32,15 @@ export default function HomeDescription() {
           onClick={() => nav("/makeup")}
         />
 
-        <p className="flex justify-start lg:ml-40 text-2xl">Facials</p>
-        <p className="flex justify-start lg:ml-40 text-2xl">Waxing </p>
-        <p className="flex justify-start lg:ml-32 text-2xl">Permanent MakeUp</p>
+        <p className="flex justify-start ml-6 md:ml-12 lg:ml-40 text-xl md:text-2xl lg:text-2xl">
+          Facials
+        </p>
+        <p className="flex justify-start ml-6 md:ml-12 lg:ml-40 text-xl md:text-2xl lg:text-2xl">
+          Waxing{" "}
+        </p>
+        <p className="flex justify-start ml-6 md:ml-12 lg:ml-32 text-xl md:text-2xl lg:text-2xl">
+          Permanent MakeUp
+        </p>
       </div>
     </div>
   );
