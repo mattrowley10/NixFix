@@ -9,10 +9,10 @@ export default function Footer() {
           Contact Us
         </li>
         <li className="pr-2">
-          <a>Facebook</a>
+          <a href="https://www.facebook.com/NixFixEsthetics">Facebook</a>
         </li>
         <li>
-          <a>Instagram</a>
+          <a href="https://www.instagram.com/nix_fix_llc/">Instagram</a>
         </li>
       </ul>
     </div>
