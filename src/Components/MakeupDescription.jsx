@@ -132,7 +132,7 @@ export default function MakeupDescription() {
         </li>
         <li
           id="10"
-          className="makeup-pricing mt-36  md:mt-16 lg:mt-32 xl:mt-4 2xl:mt-4"
+          className="makeup-pricing mt-36  md:mt-16 lg:mt-32 xl:mt-4 2xl:mt-2"
         >
           $500
         </li>

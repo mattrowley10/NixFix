@@ -59,6 +59,9 @@ export default function TopNav() {
             <li className="mb-2" onClick={() => nav("/makeup")}>
               <a>Permanent Makeup</a>
             </li>
+            <li className="mb-2" onClick={() => nav("/gallery")}>
+              <a>Gallery</a>
+            </li>
             <li className="mb-2">
               <a href="https://www.vagaro.com/nixfixllc?fbclid=IwAR1UVsan_MT_4iLTZpheoLCeORB65hUMD6nwax51HWN3uvTWi9J-Ri11mo4&ig_fbb=true">
                 Booking

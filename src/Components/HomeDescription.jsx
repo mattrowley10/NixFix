@@ -17,19 +17,20 @@ export default function HomeDescription() {
         <img
           className="home-d-img rounded-md cursor-pointer pr-4"
           src="https://cdn.pixabay.com/photo/2023/08/31/08/58/facial-8224799_1280.jpg "
-          alt="facial"
+          alt="Woman getting a facial and massage who is feeling very relaxed"
           onClick={() => nav("/facials")}
         />
         <img
           className="home-d-img rounded-md cursor-pointer"
           src="/public/wax6.jpeg"
-          alt="waxes"
+          alt="A group of people who have all just gotten their legs waxed feeling great!"
           onClick={() => nav("/wax")}
         />
         <img
           className="home-d-img rounded-md cursor-pointer pl-4"
           src="/public/pmu2.png"
           onClick={() => nav("/makeup")}
+          alt="Woman getting her permanent makeup applied and feeling happy"
         />
 
         <p className="flex justify-start ml-6 md:ml-12 lg:ml-40 text-xl md:text-2xl lg:text-2xl">

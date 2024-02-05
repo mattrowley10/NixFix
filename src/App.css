@@ -258,6 +258,14 @@ html, body{
   background-color:#FCEEE0;
   font-family: 'Cormorant Garamond';
 }
+.gallery{
+  height: 240vh;
+  background-color: #FCEEE0;
+
+}
+.gallery-img{
+  height: 35rem;
+}
 @media(min-width: 1600px){
   .facials{
     background-size:120rem 65rem ;
