@@ -33,7 +33,7 @@ export default function TopNav() {
     <div className="topNav flex">
       <ScrollToTop />
       <p className="text-3xl cursor-pointer" onClick={() => nav("/")}>
-        Nix Fix
+        Nix Fix Llc.
       </p>
       <div className="absolute right-0 mr-4">
         <button className="text-3xl" onClick={toggleDropDown}>

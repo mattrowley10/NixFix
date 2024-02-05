@@ -259,12 +259,12 @@ html, body{
   font-family: 'Cormorant Garamond';
 }
 .gallery{
-  height: 240vh;
+  height: 215vh;
   background-color: #FCEEE0;
 
 }
 .gallery-img{
-  height: 35rem;
+  height: 25rem;
 }
 @media(min-width: 1600px){
   .facials{
@@ -310,6 +310,14 @@ html, body{
   .home-d-img{
     margin-left: 4rem;
   }
+  .gallery{
+    height: 240vh;
+    background-color: #FCEEE0;
+  
+  }
+  .gallery-img{
+    height: 35rem;
+  }
 }
 @media(max-width:1024px){
   .home{
@@ -350,6 +358,12 @@ html, body{
   }
   .makeup-pricing{
     line-height: 2;
+  }
+  .gallery-img{
+    height: 20rem;
+  }
+  .gallery{
+    height: 200vh
   }
 }
 @media(max-width:768px){
@@ -442,10 +456,21 @@ html, body{
   .makeup-list{
     width: 40rem;
   }
-
+.gallery{
+  height: 240vh;
+}
+  .gallery-img{
+    height: 20rem;
+  }
 
 }
 @media(max-width: 425px){
+  .gallery{
+    height: 335vh;
+  }
+  .gallery-img{
+    height: 15rem;
+  }
   .book-button{
     top: 97%;
     bottom:2rem;

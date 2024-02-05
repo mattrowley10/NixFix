@@ -3,7 +3,10 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 export default function Gallery() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-350px" });
+  const getMarginThreshold = () => {
+    return window.innerWidth > 768 ? "-350px" : "-150px";
+  };
+  const isInView = useInView(ref, { once: true, margin: getMarginThreshold() });
   return (
     <div className="gallery">
       <section>
@@ -118,17 +121,6 @@ export default function Gallery() {
             <img
               className="gallery-img"
               src="https://scontent-den2-1.xx.fbcdn.net/v/t1.15752-9/420715699_7458431084201698_7430721430396280229_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=zaEKS5hjZncAX9a6bXI&_nc_ht=scontent-den2-1.xx&oh=03_AdTfyhzXY9cnUsGByxmmLn7JZ9aMAHpdIv1n9m_S9iOPnw&oe=65E79113"
-              alt="facial, wax, and permanent makeup before and after"
-            />
-          </motion.li>
-          <motion.li
-            animate={isInView ? { x: 0, opacity: 1 } : { x: -1000, opacity: 0 }}
-            transition={{ duration: 4 }}
-            className="mx-6 my-2"
-          >
-            <img
-              className="gallery-img"
-              src="https://scontent-den2-1.xx.fbcdn.net/v/t1.15752-9/421205364_1737647296745210_9033208102220993354_n.jpg?stp=dst-jpg_p1080x2048&_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=k8GpA3yt5c0AX91Nfcc&_nc_ht=scontent-den2-1.xx&oh=03_AdSHBFJs9yunY_apM8qqT63gtKWYMTVzc1iS5jD8Okm8DQ&oe=65E7AD44"
               alt="facial, wax, and permanent makeup before and after"
             />
           </motion.li>
