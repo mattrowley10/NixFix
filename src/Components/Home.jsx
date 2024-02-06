@@ -16,7 +16,8 @@ export default function Home() {
           esthetician for her beauty needs"
         />
         <p className="image-quote text-3xl lg:text-5xl">
-          "The Human Body <br></br> is the <br></br> Best Work of Art"
+          “Beauty is about enhancing what you have. <br></br>
+          Let yourself shine through.”<br></br> -Janelle Mona’s
         </p>
       </div>
       <HomeDescription />
