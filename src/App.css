@@ -521,7 +521,7 @@ html, body{
     height: 25vh;
   }
   .wax-description{
-    height: 430vh;
+    height: 440vh;
     display: flex;
   }
   .wax-list{
@@ -531,7 +531,7 @@ html, body{
   .wax-list-2{
     line-height: 2.5rem;
     margin-right: 0;
-    width: max-content;
+    width: auto;
   }
   .facials{
     background-size: 425px;
@@ -569,5 +569,17 @@ html, body{
   }
   .scroll-container{
     scroll-snap-type:none ;
+  }
+}
+@media(max-width:375px){
+  .book-button{
+    top: 97%;
+    bottom:2rem;
+    right: 2rem;
+      padding: 0 8rem;
+    background-color: transparent;
+  }
+  .wax-list-2{
+    width: 6rem;
   }
 }
