@@ -205,7 +205,7 @@ export default function WaxDescription() {
         </li>
         <li
           id="6"
-          className="wax-pricing mt-6 sm:mt-6 md:mt-8 xl:mt-8 2xl:mt-8"
+          className="wax-pricing mt-4 sm:mt-6 md:mt-8 xl:mt-8 2xl:mt-8"
         >
           $40
         </li>
@@ -250,19 +250,19 @@ export default function WaxDescription() {
         </li>
         <li
           id="14"
-          className="wax-pricing mt-20 pt-2 sm:pt-0 sm:mt-12 md:mt-8 lg:mt-16 xl:mt-16 2xl:mt-10"
+          className="wax-pricing mt-12 pt-2 sm:pt-0 sm:mt-12 md:mt-8 lg:mt-16 xl:mt-16 2xl:mt-10"
         >
           $35
         </li>
         <li
           id="15"
-          className="wax-pricing mt-14 sm:mt-14 md:mt-8 xl:mt-8 2xl:mt-6"
+          className="wax-pricing mt-12 sm:mt-14 md:mt-8 xl:mt-8 2xl:mt-6"
         >
           $20
         </li>
         <li
           id="17"
-          className="wax-pricing mt-20 sm:mt-14 sm:mt-14 md:mt-8 lg:mt-16 xl:mt-16 2xl:mt-8"
+          className="wax-pricing mt-16 sm:mt-14 sm:mt-14 md:mt-8 lg:mt-16 xl:mt-16 2xl:mt-8"
         >
           $20
         </li>
