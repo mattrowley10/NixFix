@@ -611,7 +611,7 @@ html, body{
     width: 6rem;
   }
   .wax-description{
-    height: 440vh;
+    height: 460vh;
   }
   .facials{
     background-size: 384px;
@@ -619,10 +619,10 @@ html, body{
     background-color: #FDF3E9;
   }
   .facial-description{
-    height: 400vh;
+    height: 420vh;
   }
   .makeup-description{
-    height: 300vh;
+    height: 320vh;
   }
   .background-makeup{
     background-size: 384px;
