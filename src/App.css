@@ -521,7 +521,7 @@ html, body{
     height: 25vh;
   }
   .wax-description{
-    height: 425vh;
+    height: 430vh;
     display: flex;
   }
   .wax-list{
@@ -569,6 +569,5 @@ html, body{
   }
   .scroll-container{
     scroll-snap-type:none ;
-
   }
 }
