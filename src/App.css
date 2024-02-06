@@ -570,8 +570,9 @@ html, body{
   .scroll-container{
     scroll-snap-type:none ;
   }
+
 }
-@media(max-width:375px){
+@media(max-width:387px){
   .book-button{
     top: 97%;
     bottom:2rem;
@@ -579,8 +580,14 @@ html, body{
       padding: 0 8rem;
     background-color: transparent;
   }
+  .book-p{
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
   .wax-list-2{
-    width: 9rem;
+    line-height: 2.5rem;
+    margin-right: 0;
+    width: 6rem;
   }
   .facial-description{
     height: 400vh;
