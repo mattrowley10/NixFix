@@ -26,7 +26,7 @@ export default function ContactUs() {
   return (
     <div className="contact-us flex flex-col items-center">
       <form className="text-2xl" ref={form} onSubmit={sendEmail}>
-        <p className="mt-32"> Name</p>
+        <p className=" mt-12"> Name</p>
         <input
           className="rounded-md mt-2 px-2"
           type="text"
