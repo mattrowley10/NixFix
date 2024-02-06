@@ -33,13 +33,13 @@ export default function HomeDescription() {
           alt="Woman getting her permanent makeup applied and feeling happy"
         />
 
-        <p className="flex justify-start ml-6 md:ml-12 lg:ml-40 text-xl md:text-2xl lg:text-2xl">
+        <p className="flex justify-start ml-6 md:ml-12 lg:ml-40 text-xl md:text-2xl lg:text-3xl">
           Facials
         </p>
-        <p className="flex justify-start ml-6 md:ml-12 lg:ml-40 text-xl md:text-2xl lg:text-2xl">
+        <p className="flex justify-start ml-6 md:ml-12 lg:ml-40 text-xl md:text-2xl lg:text-3xl">
           Waxing{" "}
         </p>
-        <p className="flex justify-start ml-6 md:ml-12 lg:ml-32 text-xl md:text-2xl lg:text-2xl">
+        <p className="flex justify-start ml-6 md:ml-12 lg:ml-32 text-xl md:text-2xl lg:text-3xl">
           Permanent MakeUp
         </p>
       </div>

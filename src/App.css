@@ -521,7 +521,7 @@ html, body{
     height: 25vh;
   }
   .wax-description{
-    height: 415vh;
+    height: 425vh;
     display: flex;
   }
   .wax-list{
@@ -531,7 +531,7 @@ html, body{
   .wax-list-2{
     line-height: 2.5rem;
     margin-right: 0;
-    width: auto;
+    width: max-content;
   }
   .facials{
     background-size: 425px;
