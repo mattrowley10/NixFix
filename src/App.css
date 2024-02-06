@@ -572,7 +572,7 @@ html, body{
   }
 
 }
-@media(max-width:387px){
+@media(max-width:384px){
   .book-button{
     top: 97%;
     bottom:2rem;
@@ -588,6 +588,9 @@ html, body{
     line-height: 2.5rem;
     margin-right: 0;
     width: 6rem;
+  }
+  .wax-description{
+    height: 460vh;
   }
   .facial-description{
     height: 400vh;
