@@ -464,7 +464,7 @@ html, body{
   }
 
 }
-@media(max-width: 425px){
+@media(max-width: 428px){
   .gallery{
     height: 335vh;
   }

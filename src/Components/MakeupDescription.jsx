@@ -108,7 +108,7 @@ export default function MakeupDescription() {
         </li>
         <li
           id="6"
-          className="makeup-pricing mt-44 pt-2 sm:mt-48 md:mt-16 md:pt-2 lg:mt-40 xl:mt-8 2xl:mt-12"
+          className="makeup-pricing mt-44 pt-2 sm:mt-44 sm:pt-4 md:mt-16 md:pt-2 lg:mt-40 xl:mt-8 2xl:mt-12"
         >
           $650
         </li>
@@ -120,19 +120,19 @@ export default function MakeupDescription() {
         </li>
         <li
           id="8"
-          className="makeup-pricing mt-72  sm:mt-48  md:mt-24 md:pt-2 lg:mt-36 lg:pt-4  xl:pt-0 lg:mt-14 2xl:mt-12"
+          className="makeup-pricing mt-72  sm:mt-44 sm:pt-4  md:mt-24 md:pt-2 lg:mt-36 lg:pt-4  xl:pt-0 lg:mt-14 2xl:mt-12"
         >
           $300
         </li>
         <li
           id="9"
-          className="makeup-pricing mt-28 sm:mt-28 md:mt-8 lg:mt-32 xl:mt-0 2xl:mt-4"
+          className="makeup-pricing mt-28 sm:mt-24 sm:pt-4 md:mt-8 lg:mt-32 xl:mt-0 2xl:mt-4"
         >
           $180
         </li>
         <li
           id="10"
-          className="makeup-pricing mt-32 pt-2 sm:pt-0 sm:mt-36  md:mt-16 lg:mt-32 xl:mt-4 2xl:mt-2"
+          className="makeup-pricing mt-32 pt-2 sm:pt-4 sm:mt-32  md:mt-16 lg:mt-32 xl:mt-4 2xl:mt-2"
         >
           $500
         </li>
