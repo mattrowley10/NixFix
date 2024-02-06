@@ -627,4 +627,7 @@ html, body{
   .background-makeup{
     background-size: 384px;
   }
+  .gallery{
+    height: 375vh;
+  }
 }
