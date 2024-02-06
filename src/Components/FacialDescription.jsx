@@ -98,13 +98,13 @@ export default function FacialDescription() {
         </li>
         <li
           id="2"
-          className="facial-pricing mt-60 pt-2 sm:pt-0 sm:mt-56 md:mt-32 lg:mt-24 xl:mt-10 2xl:mt-4"
+          className="facial-pricing mt-60 pt-2 sm:pt-0 sm:mt-56 md:mt-32 lg:mt-24 xl:mt-8 2xl:mt-2"
         >
           $70 (60min)
         </li>
         <li
           id="3"
-          className="facial-pricing mt-64 sm:mt-64 md:mt-32 lg:mt-32 lg:pt-2 xl:mt-20 2xl:mt-8"
+          className="facial-pricing mt-64 sm:mt-64 md:mt-32 lg:mt-32 lg:pt-2 xl:mt-16 2xl:mt-8"
         >
           $90 (60min)
         </li>
@@ -122,7 +122,7 @@ export default function FacialDescription() {
         </li>
         <li
           id="6"
-          className="facial-pricing mt-60 pt-2 sm:pt-2 sm:mt-52 md:pt-0 md:mt-32 lg:pt-2 xl:mt-20 2xl:mt-8"
+          className="facial-pricing mt-60 pt-2 sm:pt-2 sm:mt-52 md:pt-0 md:mt-32 lg:pt-2 xl:mt-16 2xl:mt-8"
         >
           $120 (75min)
         </li>
@@ -134,13 +134,13 @@ export default function FacialDescription() {
         </li>
         <li
           id="8"
-          className="facial-pricing mt-60 pt-2 sm:pt-0 sm:mt-52 md:mt-20 lg:mt-32 xl:mt-16 2xl:mt-10"
+          className="facial-pricing mt-60 pt-2 sm:pt-0 sm:mt-52 md:mt-20 lg:mt-32 xl:mt-20 2xl:mt-10"
         >
           $130 (75min)
         </li>
         <li
           id="9"
-          className=" mt-52 pt-2 sm:pt-0 sm:mt-48 xl:mt-28 md:mt-36 lg:mt-40 lg:pt-2 2xl:mt-16"
+          className=" mt-52 pt-2 sm:pt-0 sm:mt-48  md:mt-36 lg:mt-40 lg:pt-2 xl:mt-24 2xl:mt-16"
         >
           $250
           <br /> 3 for $690

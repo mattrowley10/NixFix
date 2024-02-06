@@ -10,7 +10,7 @@ export default function Makeup() {
       <div className="book-button-makeup flex justify-end text-4xl rounded-lg">
         <a
           className="book-makeup"
-          href="https://www.vagaro.com/nixfixllc/services?fbclid=IwAR1UVsan_MT_4iLTZpheoLCeORB65hUMD6nwax51HWN3uvTWi9J-Ri11mo4&ig_fbb=true"
+          href="https://www.vagaro.com/nixfixllc?fbclid=IwAR1UVsan_MT_4iLTZpheoLCeORB65hUMD6nwax51HWN3uvTWi9J-Ri11mo4&ig_fbb=true"
         >
           <p className="book-p rounded-md">Book Now</p>
         </a>

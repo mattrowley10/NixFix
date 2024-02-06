@@ -8,7 +8,11 @@ export default {
       lg: "1024px",
       xl: "1440px",
     },
-    extend: {},
+    extend: {
+      screens: {
+        "2xl": "1600px",
+      },
+    },
   },
   plugins: [],
 };
