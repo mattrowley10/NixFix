@@ -582,4 +582,7 @@ html, body{
   .wax-list-2{
     width: 6rem;
   }
+  .facial-description{
+    height: 400vh;
+  }
 }
