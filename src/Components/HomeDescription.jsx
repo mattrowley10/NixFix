@@ -22,13 +22,13 @@ export default function HomeDescription() {
         />
         <img
           className="home-d-img rounded-md cursor-pointer"
-          src="/public/wax6.jpeg"
+          src="/wax6.jpeg"
           alt="A group of people who have all just gotten their legs waxed feeling great!"
           onClick={() => nav("/wax")}
         />
         <img
           className="home-d-img rounded-md cursor-pointer pl-4"
-          src="/public/pmu2.png"
+          src="/pmu2.png"
           onClick={() => nav("/makeup")}
           alt="Woman getting her permanent makeup applied and feeling happy"
         />
