@@ -17,7 +17,7 @@ export default function Home() {
         />
         <p className="image-quote text-3xl lg:text-5xl">
           “Beauty is about enhancing what you have. <br></br>
-          Let yourself shine through.”<br></br> -Janelle Mona’s
+          Let yourself shine through.”<br></br> -Janelle Monae
         </p>
       </div>
       <HomeDescription />

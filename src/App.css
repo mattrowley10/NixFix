@@ -573,16 +573,37 @@ html, body{
 
 }
 @media(max-width:384px){
+  .book-button-makeup{
+    top: 96%;
+    bottom: 5rem;
+    right: .6rem;
+    z-index: 1;
+      padding: 0 8rem;
+    background-color: transparent;
+  }
   .book-button{
     top: 97%;
     bottom:2rem;
-    right: 2rem;
+    right: 1rem;
+    left: 3rem;
+      padding: 0 7rem;
+    background-color: transparent;
+  }
+  .book-button-facials{
+    top: 97%;
+    bottom: 2rem;
+    right: .6rem;
+    z-index: 1;
       padding: 0 8rem;
     background-color: transparent;
   }
   .book-p{
     padding-right: 2rem;
     padding-left: 2rem;
+    
+  }
+  .background-wax{
+    background-size: 384px;
   }
   .wax-list-2{
     line-height: 2.5rem;
@@ -590,9 +611,20 @@ html, body{
     width: 6rem;
   }
   .wax-description{
-    height: 460vh;
+    height: 525vh;
+  }
+  .facials{
+    background-size: 384px;
+    height: 28vh;
+    background-color: #FDF3E9;
   }
   .facial-description{
-    height: 400vh;
+    height: 485vh;
+  }
+  .makeup-description{
+    height: 365vh;
+  }
+  .background-makeup{
+    background-size: 384px;
   }
 }
