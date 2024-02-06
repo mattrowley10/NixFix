@@ -340,7 +340,7 @@ export default function WaxDescription() {
         </li>
         <li
           id="33"
-          className="wax-pricing mt-24 sm:mt-20 md:mt-8 lg:mt-16 xl:mt-16 2xl:mt-6"
+          className="wax-pricing mt-20 pt-2 sm:pt-0 sm:mt-20 md:mt-8 lg:mt-16 xl:mt-16 2xl:mt-6"
         >
           $55
         </li>
