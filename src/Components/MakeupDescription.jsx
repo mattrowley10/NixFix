@@ -84,25 +84,25 @@ export default function MakeupDescription() {
         </li>
         <li
           id="2"
-          className="makeup-pricing mt-56 sm:mt-56 md:mt-24 md:pt-2 lg:mt-36 xl:mt-16 xl:pt-4 2xl:mt-6"
+          className="makeup-pricing mt-72 sm:mt-56 md:mt-24 md:pt-2 lg:mt-36 xl:mt-16 xl:pt-4 2xl:mt-6"
         >
           $100
         </li>
         <li
           id="3"
-          className="makeup-pricing mt-44 pt-4 sm:mt-36 sm:pt-2 md:mt-16 lg:mt-28 lg:pt-4 xl:mt-10 2xl:mt-2"
+          className="makeup-pricing mt-40 pt-4 sm:mt-36 sm:pt-2 md:mt-16 lg:mt-28 lg:pt-4 xl:mt-10 2xl:mt-2"
         >
           $500
         </li>
         <li
           id="4"
-          className="makeup-pricing mt-72 pt-6 sm:mt-52 sm:pt-4 md:mt-24 lg:mt-48 lg:pt-2  lg:mt-14 xl:mt-20 xl:pt-2 2xl:mt-20 2xl:pt-2"
+          className="makeup-pricing mt-72 pt-4 sm:mt-52 sm:pt-4 md:mt-24 lg:mt-48 lg:pt-2  lg:mt-14 xl:mt-20 xl:pt-2 2xl:mt-20 2xl:pt-2"
         >
           $500
         </li>
         <li
           id="5"
-          className="makeup-pricing mt-56 sm:mt-56 pt-2 md:mt-24 lg:mt-36 lg:pt-4 xl:mt-20 2xl:mt-10"
+          className="makeup-pricing mt-80 sm:mt-56 pt-2 md:mt-24 lg:mt-36 lg:pt-4 xl:mt-20 2xl:mt-10"
         >
           $0
         </li>
@@ -114,13 +114,13 @@ export default function MakeupDescription() {
         </li>
         <li
           id="7"
-          className="makeup-pricing mt-36 sm:mt-36 sm:pt-2 md:mt-16 lg:mt-20 lg:pt-0 xl:mt-16 2xl:mt-6"
+          className="makeup-pricing mt-36 pt-2 sm:mt-36 sm:pt-2 md:mt-16 lg:mt-20 lg:pt-0 xl:mt-16 2xl:mt-6"
         >
           $450
         </li>
         <li
           id="8"
-          className="makeup-pricing mt-72  sm:mt-44 sm:pt-4  md:mt-24 md:pt-2 lg:mt-36 lg:pt-4  xl:pt-0 lg:mt-14 xl:mt-24 2xl:mt-12"
+          className="makeup-pricing mt-64  sm:mt-44 sm:pt-4  md:mt-24 md:pt-2 lg:mt-36 lg:pt-4  xl:pt-0 lg:mt-14 xl:mt-24 2xl:mt-12"
         >
           $300
         </li>
@@ -132,7 +132,7 @@ export default function MakeupDescription() {
         </li>
         <li
           id="10"
-          className="makeup-pricing mt-32 pt-2 sm:pt-4 sm:mt-32  md:mt-16 lg:mt-32 xl:mt-6 2xl:mt-2"
+          className="makeup-pricing mt-36 pt-2 sm:pt-4 sm:mt-32  md:mt-16 lg:mt-32 xl:mt-6 2xl:mt-2"
         >
           $500
         </li>

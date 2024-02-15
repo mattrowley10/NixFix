@@ -572,7 +572,11 @@ html, body{
   }
 
 }
-@media(max-width:384px){
+@media(max-width:390px){
+  .home{
+    background-size: 390px;
+    height: 30vh;
+  }
   .book-button-makeup{
     top: 96%;
     bottom: 5rem;
@@ -608,7 +612,11 @@ html, body{
   .wax-list-2{
     line-height: 2.5rem;
     margin-right: 0;
-    width: 6rem;
+    width: 7rem;
+  }
+
+  .makeup-list-2{
+    width: 5rem;
   }
   .wax-description{
     height: 460vh;
